@@ -60,7 +60,7 @@ namespace algorithmWPFApp
 
         private void DisplayTimeTaken(long milliseconds)
         {
-            TimeTakenTextBlock.Text = "Time Taken: " + milliseconds + " ms";
+            TimeTakenTextBlock.Text = "Time Taken: " + milliseconds.ToString("F3") + " ms";
         }
 
 
